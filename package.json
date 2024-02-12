@@ -1,0 +1,23 @@
+{
+	"name": "bot_dc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx tsc && node .",
+		"start:dev": "tsx watch src",
+		"lint": "eslint src/**/*.ts --fix"
+	},
+	"keywords": [],
+	"author": "piveT",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^14.14.1",
+		"dotenv": "^16.4.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.56.0",
+		"tsx": "^4.7.1",
+		"typescript": "^5.3.3"
+	}
+}
